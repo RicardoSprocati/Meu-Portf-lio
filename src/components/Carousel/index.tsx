@@ -3,6 +3,11 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css';
 import { CarouselContainer, Slide, Image, Description } from './styles';
 
+import back1 from '../../assets/images/NewTwitter-Feed.png'
+import back2 from '../../assets/images/NewTwitter-perfil.png'
+import back3 from '../../assets/images/modelagem-dados.png'
+import back4 from '../../assets/images/docker-prod.png'
+import back5 from '../../assets/images/aws.png'
 import slide1 from '../../assets/images/restaurante-part1.png'
 import slide2 from '../../assets/images/restaurante-part2.png'
 import slide3 from '../../assets/images/loja-part1.png'
@@ -37,21 +42,26 @@ const Carousel = () => {
   };
 
   const slides = [
-    { id: 1, img: slide1, text: t("carousel.slide1") },
-    { id: 2, img: slide2, text: t("carousel.slide2") },
-    { id: 3, img: slide3, text: t("carousel.slide3") },
-    { id: 4, img: slide4, text: t("carousel.slide4") },
-    { id: 5, img: slide5, text: t("carousel.slide5") },
-    { id: 6, img: slide6, text: t("carousel.slide6") },
-    { id: 7, img: slide7, text: t("carousel.slide7") },
-    { id: 8, img: slide8, text: t("carousel.slide8") },
-    { id: 9, img: slide9, text: t("carousel.slide9") },
-    { id: 10, img: slide10, text: t("carousel.slide10") },
-    { id: 11, img: slide11, text: t("carousel.slide11") },
-    { id: 12, img: slide12, text: t("carousel.slide12") },
-    { id: 13, img: slide13, text: t("carousel.slide13") },
-    { id: 14, img: slide14, text: t("carousel.slide14") },
-    { id: 15, img: slide15, text: t("carousel.slide15") },
+    { id: 0, img: back1, text: t("carousel.back1") },
+    { id: 1, img: back2, text: t("carousel.back2") },
+    { id: 2, img: back3, text: t("carousel.back3") },
+    { id: 3, img: back4, text: t("carousel.back4") },
+    { id: 4, img: back5, text: t("carousel.back5") },
+    { id: 5, img: slide1, text: t("carousel.slide1") },
+    { id: 6, img: slide2, text: t("carousel.slide2") },
+    { id: 7, img: slide3, text: t("carousel.slide3") },
+    { id: 8, img: slide4, text: t("carousel.slide4") },
+    { id: 9, img: slide5, text: t("carousel.slide5") },
+    { id: 10, img: slide6, text: t("carousel.slide6") },
+    { id: 11, img: slide7, text: t("carousel.slide7") },
+    { id: 12, img: slide8, text: t("carousel.slide8") },
+    { id: 13, img: slide9, text: t("carousel.slide9") },
+    { id: 14, img: slide10, text: t("carousel.slide10") },
+    { id: 15, img: slide11, text: t("carousel.slide11") },
+    { id: 16, img: slide12, text: t("carousel.slide12") },
+    { id: 17, img: slide13, text: t("carousel.slide13") },
+    { id: 18, img: slide14, text: t("carousel.slide14") },
+    { id: 19, img: slide15, text: t("carousel.slide15") },
   ];
 
   return (

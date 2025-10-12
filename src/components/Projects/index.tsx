@@ -12,9 +12,9 @@ import {
   LerMais
 } from './styles'
 
-import Project1 from '../../assets/images/restaurante-part1.png'
+import Project1 from '../../assets/images/NewTwitter-Feed.png'
 import Project2 from '../../assets/images/loja-part1.png'
-import Project3 from '../../assets/images/Efood.png'
+import Project3 from '../../assets/images/restaurante-part1.png'
 import Project4 from '../../assets/images/agenda-part1.png'
 import Project5 from '../../assets/images/Disney-clone.png'
 import { useState } from 'react'
