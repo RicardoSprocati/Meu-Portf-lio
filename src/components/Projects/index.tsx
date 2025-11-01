@@ -29,7 +29,7 @@ const Projects = () => {
       image: Project1,
       title: t('projects.project1.title'),
       description: t('projects.project1.description'),
-      link: 'https://projeto-al-khubz.vercel.app/'
+      link: 'http://18.118.173.210/entrar'
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ const Projects = () => {
       image: Project3,
       title: t('projects.project3.title'),
       description: t('projects.project3.description'),
-      link: 'https://ebac-projeto6-efood.vercel.app/'
+      link: 'https://projeto-al-khubz.vercel.app/'
     },
     {
       id: 4,
